@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(7, 26, 66);
+    color: white;
+}
+
+input[type=text]{
+    border: none;
+    border-bottom: 2px solid rgb(172, 18, 18);
+    margin-right: 15px;
+    background-color: rgb(241, 247, 247);
+    outline: none;
+} 
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#box{
+    background-color: rgb(241, 247, 247);
+    color: black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 100px;
+}
+
+#inputs{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
